@@ -1,0 +1,84 @@
+
+ /*
+ :before, :after {} */
+
+body{
+    margin: 0;
+    padding: 5%;
+} 
+
+ #loremtext {
+    color: slategrey;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 75%;
+}
+
+h1 {
+    color: rgb(235, 206, 210);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar-brand{
+    color: rgb(247, 241, 242);
+}
+
+ul {
+    align-items: center;
+    color: floralwhite;
+}
+
+.nav-link, .nav-link :active {
+    color: floralwhite;
+}
+
+.card {
+    border-radius: 20px;
+    max-width: 75%;
+    margin:10px;
+}
+
+.card-body {
+    background-color: rgb(247, 244, 238);
+}
+
+form {
+    background-color: darkgray;
+    padding: 10px;
+    margin: 10px;
+    justify-content: space-around;
+    max-width: 75%;
+    border-radius: 20px;
+    
+}
+
+h5  {
+    color: rgb(219, 209, 211);
+    justify-content: center;
+    padding:5px;
+
+}
+
+nav {
+    border-radius: 20px;
+    max-width: 75%;
+    max-height: 3%;
+    margin:10px;
+}
+
+.carousel-item {
+    transition: transform 2s ease, .5s ease-out;
+}
+
+img {
+    max-height: 500px;
+}
+
+.logo {
+    margin-top: 10px;
+    padding: 0;
+}
+
+/* .carousel-control-prev, .carousel-control-next  {
+
+        
+}  */
