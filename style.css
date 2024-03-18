@@ -1,13 +1,9 @@
-
- /*
- :before, :after {} */
-
 body{
     margin: 0;
     padding: 5%;
 } 
 
- #loremtext {
+ #maintext {
     color: slategrey;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     max-width: 75%;
@@ -71,14 +67,24 @@ nav {
 
 img {
     max-height: 500px;
+    width: auto;
 }
 
 .logo {
-    margin-top: 10px;
+    margin-top: 1em;
     padding: 0;
 }
 
-/* .carousel-control-prev, .carousel-control-next  {
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 2%;
+    }
 
-        
-}  */
+    #loremtext {
+        max-width: 100%;
+    }
+
+    .card {
+        border-radius: 10px;
+    }
+}
